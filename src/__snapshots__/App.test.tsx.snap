@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render and match the snapshot 1`] = `
+<Context.Provider
+  value={
+    {
+      "addTodo": [Function],
+      "changeFilter": [Function],
+      "deleteCompletedTodos": [Function],
+      "filter": "All",
+      "getTodos": [Function],
+      "todos": [],
+      "updateTodo": [Function],
+    }
+  }
+>
+  <App />
+</Context.Provider>
+`;

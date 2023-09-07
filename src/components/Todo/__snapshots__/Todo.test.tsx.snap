@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Todo /> should render and match the snapshot 1`] = `
+<div
+  className="flex items-center justify-between gap-8 w-full px-4 py-3"
+  data-testid="todo"
+>
+  <div
+    className="flex items-center gap-4"
+  >
+    <div
+      className="w-max h-max"
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+    >
+      <CompletedSign />
+    </div>
+    <div
+      className="flex items-center justify-between"
+    >
+      <p
+        className="text-lg"
+        data-testid="title-text"
+        style={
+          {
+            "color": "#9ca3af",
+            "textDecorationLine": "line-through",
+          }
+        }
+      >
+        quis ut nam facilis et officia qui
+      </p>
+    </div>
+  </div>
+  <div>
+    <button
+      className="px-2 py-1 rounded-md hover:brightness-[85%] transition-all duration-200"
+      data-testid="update-button"
+      onClick={[Function]}
+      style={
+        {
+          "background": "#ef4444",
+        }
+      }
+    >
+      <span
+        className="text-sm"
+        data-testid="button-text"
+      >
+        Отменить
+      </span>
+    </button>
+  </div>
+</div>
+`;

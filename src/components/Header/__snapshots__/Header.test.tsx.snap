@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render and match the snapshot 1`] = `
+<header
+  data-testid="header"
+>
+  <h1
+    className="font-light text-[64px] text-white"
+    data-testid="header-text"
+  >
+    todos
+  </h1>
+</header>
+`;

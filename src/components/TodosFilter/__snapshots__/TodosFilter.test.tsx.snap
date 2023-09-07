@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TodosFilter /> should render and match the snapshot 1`] = `
+<div
+  className="flex items-center justify-between px-4 py-3 w-full bg-[#282828] border border-transparent border-t-zinc-600 rounded-b-md"
+>
+  <RemainingTodos />
+  <Filters />
+  <DeleteCompletedTodosButton />
+</div>
+`;
